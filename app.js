@@ -1,7 +1,7 @@
 const coap = require("node-coap-client").CoapClient;
 
-var target="coaps://localhost:49506";
-var timeout=10000;
+var target="coaps://192.168.0.13:41283/switch";
+var timeout=1000;
 coap
     .ping(
         target /* string | url | Origin */,
@@ -14,3 +14,5 @@ coap
             console.log(err);
         })
     ;
+
+    // cd iot/iotivity/out/linux/armv7l/release/examples/OCFSecure/
