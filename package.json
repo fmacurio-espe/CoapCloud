@@ -1,0 +1,22 @@
+{
+  "name": "coapcloud",
+  "version": "1.0.0",
+  "description": "CoapCloud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmacurio-espe/CoapCloud.git"
+  },
+  "author": "fmacurio-espe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmacurio-espe/CoapCloud/issues"
+  },
+  "homepage": "https://github.com/fmacurio-espe/CoapCloud#readme",
+  "dependencies": {
+    "node-coap-client": "^1.0.2"
+  }
+}
